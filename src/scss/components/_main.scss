@@ -1,0 +1,18 @@
+.main {
+    background-image: url(../../img/image\ 1.png);
+    width: 1920px;
+    height: 100vh;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__left-collum {
+        width: 110px;
+        background: rgba(241, 245, 248, 0.2);
+        height: 100vh;
+    }
+    &__right-collum {
+        width: 110px;
+    }
+}
