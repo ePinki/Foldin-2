@@ -1,18 +1,22 @@
 .main {
-    background-image: url(../../img/image\ 1.png);
-    width: 1920px;
-    height: 100vh;
+    background-image: url(../../img/image\_1.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     &__wrapper {
         display: flex;
-        flex-direction: column;
         justify-content: space-between;
     }
     &__left-collum {
         width: 110px;
-        background: rgba(241, 245, 248, 0.2);
         height: 100vh;
+        background: rgba(241, 245, 248, 0.2);
+        backdrop-filter: blur(50px);
     }
     &__right-collum {
         width: 110px;
+        height: 100vh;
+        background: rgba(241, 245, 248, 0.2);
+        backdrop-filter: blur(50px);
     }
 }
